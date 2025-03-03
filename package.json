@@ -1,0 +1,30 @@
+{
+  "name": "10up-test",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/scottsawyer/10up-test#readme",
+  "bugs": {
+    "url": "https://github.com/scottsawyer/10up-test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottsawyer/10up-test.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+	  "start": "10up-toolkit build --watch",
+	  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@wordpress/create-block": "^4.62.0",
+    "10up-toolkit": "^6.4.0"
+  },
+  "10up-toolkit": {
+    "entry": {
+      "block": "./includes/blocks/[name]/editor.js"
+    }
+  }
+}

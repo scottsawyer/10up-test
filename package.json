@@ -23,8 +23,6 @@
     "10up-toolkit": "^6.4.0"
   },
   "10up-toolkit": {
-    "entry": {
-      "block": "./includes/blocks/[name]/editor.js"
-    }
+    "useBlockAssets": true
   }
 }
